@@ -99,6 +99,7 @@ Communication and collaboration: Data scientists need to be able to explain thei
 }
 
 
+
 def clear_screen():
     # Check if the operating system is Windows
     
@@ -139,7 +140,7 @@ def ask_user_input(type):
             except:
                 print("Please enter a valid number")
                 continue
-    
+
 
 def handle_user_selection(user_input):
     if user_input == 1:
@@ -231,3 +232,4 @@ while True:
     else:
         if not handle_user_selection(user_input):
             continue
+
